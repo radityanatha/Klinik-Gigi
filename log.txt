@@ -1,0 +1,29 @@
+2024-11-27 14:37:18 - Koneksi berhasil ke database.
+2024-11-27 14:37:20 - Penyimpanan Data Berhasil untuk pasien: dita
+2024-11-27 15:29:57 - Koneksi berhasil ke database.
+2024-11-27 15:29:57 - Data berhasil dimuat ke frame: jFrameDataPasien
+2024-11-27 15:32:44 - Koneksi berhasil ke database.
+2024-11-27 15:32:44 - Data berhasil dimuat ke frame: jFrameDataPasien
+2024-11-27 15:33:23 - Koneksi berhasil ke database.
+2024-11-27 15:33:23 - Data berhasil dimuat ke frame: jFrameDataPasien
+2024-11-27 15:34:11 - Koneksi berhasil ke database.
+2024-11-27 15:34:11 - Data berhasil dimuat ke frame: jFrameDataPasien
+2024-11-27 15:37:11 - Koneksi berhasil ke database.
+2024-11-27 15:37:11 - Data berhasil dimuat ke frame: jFrameDataPasien
+2024-11-27 15:38:15 - Koneksi berhasil ke database.
+2024-11-27 15:38:15 - Data berhasil dimuat ke frame: jFrameDataPasien
+2024-11-27 15:39:21 - Koneksi berhasil ke database.
+2024-11-27 15:39:21 - Data berhasil dimuat ke frame: jFrameDataPasien
+2024-11-27 15:51:35 - Koneksi berhasil ke database.
+2024-11-27 16:18:28 - Koneksi berhasil ke database.
+2024-11-27 16:18:28 - Data berhasil dimuat ke frame: jFrameDataPasien
+2024-11-27 16:32:16 - Koneksi berhasil ke database.
+2024-11-27 16:39:34 - Koneksi berhasil ke database.
+2024-11-27 16:52:42 - Koneksi berhasil ke database.
+2024-11-27 16:52:48 - Koneksi berhasil ke database.
+2024-11-27 16:53:26 - Koneksi berhasil ke database.
+2024-11-27 16:53:55 - Koneksi berhasil ke database.
+2024-11-27 16:54:48 - Koneksi berhasil ke database.
+2024-11-27 16:55:18 - Koneksi berhasil ke database.
+2024-11-27 17:10:11 - Koneksi berhasil ke database.
+2024-11-27 17:12:03 - Koneksi berhasil ke database.

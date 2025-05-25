@@ -3,11 +3,13 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
 package Doktergigi;
+import javax.swing.JOptionPane;
 
 /**
  *
  * @author radit
  */
+
 public class FLogin extends javax.swing.JFrame {
 
     /**
@@ -26,37 +28,83 @@ public class FLogin extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jPasswordField1 = new javax.swing.JPasswordField();
         jTextField1 = new javax.swing.JTextField();
-        jLabel2 = new javax.swing.JLabel();
+        jPasswordField1 = new javax.swing.JPasswordField();
+        lbEyetutup = new javax.swing.JLabel();
+        jUsername = new javax.swing.JTextField();
+        lbEyebuka = new javax.swing.JLabel();
+        txtPassword = new javax.swing.JPasswordField();
+        btMasuk = new javax.swing.JButton();
+        lbScreenbase = new javax.swing.JLabel();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        jPasswordField1.setBackground(new java.awt.Color(30, 30, 30));
-        jPasswordField1.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
-        jPasswordField1.setForeground(new java.awt.Color(0, 0, 0));
-        jPasswordField1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jPasswordField1ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jPasswordField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 220, 330, 40));
-
-        jTextField1.setBackground(new java.awt.Color(30, 30, 30));
+        jTextField1.setBackground(new java.awt.Color(0,0,0, 0));
         jTextField1.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
-        jTextField1.setForeground(new java.awt.Color(0, 0, 0));
         jTextField1.setText("Username");
-        jTextField1.setActionCommand(null);
+        jTextField1.setActionCommand("null");
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(205, 156, 330, 40));
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Gambar/Login page.png"))); // NOI18N
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 30, -1, 420));
+        jPasswordField1.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
+        jPasswordField1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jPasswordField1ActionPerformed(evt);
+            }
+        });
+
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setMaximumSize(new java.awt.Dimension(734, 418));
+        setMinimumSize(new java.awt.Dimension(734, 418));
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        lbEyetutup.setBackground(new java.awt.Color(0,0,0, 0));
+        lbEyetutup.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
+        lbEyetutup.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Gambar/Icon eye_close.png"))); // NOI18N
+        lbEyetutup.setMaximumSize(new java.awt.Dimension(27, 19));
+        lbEyetutup.setMinimumSize(new java.awt.Dimension(27, 19));
+        lbEyetutup.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                lbEyetutupMousePressed(evt);
+            }
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lbEyetutupMouseReleased(evt);
+            }
+        });
+        getContentPane().add(lbEyetutup, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 236, 30, 20));
+
+        jUsername.setBackground(new java.awt.Color(0,0,0, 0));
+        jUsername.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
+        jUsername.setBorder(null);
+        jUsername.setSelectionColor(new java.awt.Color(255, 255, 255));
+        getContentPane().add(jUsername, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 150, 340, 50));
+
+        lbEyebuka.setBackground(new java.awt.Color(0,0,0, 0));
+        lbEyebuka.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Gambar/Icon eye_open.png"))); // NOI18N
+        getContentPane().add(lbEyebuka, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 240, -1, 20));
+
+        txtPassword.setBackground(new java.awt.Color(0,0,0, 0));
+        txtPassword.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
+        txtPassword.setBorder(null);
+        txtPassword.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtPasswordActionPerformed(evt);
+            }
+        });
+        getContentPane().add(txtPassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 220, 340, 50));
+
+        btMasuk.setBackground(new java.awt.Color(0,0,0, 0));
+        btMasuk.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Gambar/Button Masuk.png"))); // NOI18N
+        btMasuk.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btMasukActionPerformed(evt);
+            }
+        });
+        getContentPane().add(btMasuk, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 330, -1, -1));
+
+        lbScreenbase.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Gambar/Login page.png"))); // NOI18N
+        getContentPane().add(lbScreenbase, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 420));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -68,6 +116,54 @@ public class FLogin extends javax.swing.JFrame {
     private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextField1ActionPerformed
+
+    private void lbEyetutupMousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lbEyetutupMousePressed
+        lbEyetutup.setVisible(false); // Show the open eye icon
+        lbEyebuka.setVisible(true); // Hide the closed eye icon
+        txtPassword.setEchoChar((char) 0);
+    }//GEN-LAST:event_lbEyetutupMousePressed
+
+    private void txtPasswordActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtPasswordActionPerformed
+
+    }//GEN-LAST:event_txtPasswordActionPerformed
+
+    private void lbEyetutupMouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lbEyetutupMouseReleased
+        lbEyebuka.setVisible(false); // Show the closed eye icon
+        lbEyetutup.setVisible(true); // Hide the open eye icon
+        txtPassword.setEchoChar('*'); // Hide the password
+    }//GEN-LAST:event_lbEyetutupMouseReleased
+
+    private void btMasukActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btMasukActionPerformed
+        // TODO add your handling code here:
+        String email, password, sql;
+        email = jUsername.getText();
+        password = new String(txtPassword.getPassword()); // Menggunakan getPassword()
+        sql  = "SELECT COUNT(*) AS apakahAda From t_login where username = ?  AND password  = ?";
+        
+        try{
+            //menginisiasi koneksi menggunakan konfigurasi di config
+            java.sql.Connection conn = (java.sql.Connection) Config.configDB();
+            java.sql.PreparedStatement pst = conn.prepareStatement(sql);
+            pst.setString(1, email);
+            pst.setString(2, password);
+            java.sql.ResultSet rs = pst.executeQuery();
+            if(rs.next()){
+                int apakahAda = rs.getInt("apakahAda");
+                if(apakahAda > 0){
+                    //tindakan jika pengguna ditemukan
+                    JOptionPane.showMessageDialog(null,"Selamat Datang");
+                    fLoading_screen floading_screen = new fLoading_screen();
+                    floading_screen.setVisible(true);
+                    dispose();
+            }else {
+                    JOptionPane.showMessageDialog(null, "Silahkan masukkan kembali email dan password");
+                }
+            }
+        }catch(java.sql.SQLException e){
+                JOptionPane.showMessageDialog(null, "Terjadi kegagalan : "+ e.getMessage());
+                System.err.println("Koneksi gagal : " + e.getMessage());// jika koneksi gagal
+                }
+    }//GEN-LAST:event_btMasukActionPerformed
 
     /**
      * @param args the command line arguments
@@ -105,8 +201,13 @@ public class FLogin extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel jLabel2;
+    private javax.swing.JButton btMasuk;
     private javax.swing.JPasswordField jPasswordField1;
     private javax.swing.JTextField jTextField1;
+    private javax.swing.JTextField jUsername;
+    private javax.swing.JLabel lbEyebuka;
+    private javax.swing.JLabel lbEyetutup;
+    private javax.swing.JLabel lbScreenbase;
+    private javax.swing.JPasswordField txtPassword;
     // End of variables declaration//GEN-END:variables
 }
